@@ -16,8 +16,9 @@ nav {
 }
 
 .logo {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgb(33, 33, 33);
+    overflow: hidden;
 }
 
 .hero-section {
@@ -46,11 +47,15 @@ nav {
 .cta-text {
     display: flex;
     font-size: 2rem;
+}
 
+.cta-text h2 {
+    overflow: hidden;
 }
 
 .cta-text span {
     padding: 0rem 0.4rem;
+    display: block;
     text-shadow: rgba(0,0,0,0.4) 0px 0px 20px;
 
 }
